@@ -24,7 +24,9 @@ var grids = [
   {"region": "Land of Water", "row":  10, "col": 2, "status": 0, "corner": 5, "name": "By The River", "adjacent": ["Big Slope", "Totori Village"]},
   {"region": "Land of Water", "row":  10, "col": 3, "status": 0, "corner": 5, "name": "Big Slope", "adjacent": ["3 Way Road Split", "By The River"]},
 
-  {"region": "Land of Water", "row":  14, "col": 4, "status": 3, "corner": 5, "name": "South Eastern Sea III", "adjacent": ["South Eastern Sea IV"]},
+  {"region": "Land of Water", "row":  14, "col": 0, "status": 3, "corner": 5, "name": "South Eastern Sea", "adjacent": ["South Eastern Sea II"]},
+  {"region": "Land of Water", "row":  14, "col": 2, "status": 3, "corner": 5, "name": "South Eastern Sea II", "adjacent": ["South Eastern Sea", "South Eastern Sea III"]},
+  {"region": "Land of Water", "row":  14, "col": 4, "status": 3, "corner": 5, "name": "South Eastern Sea III", "adjacent": ["South Eastern Sea II", "South Eastern Sea IV"]},
   {"region": "Land of Water", "row":  14, "col": 6, "status": 3, "corner": 3, "name": "South Eastern Sea IV", "adjacent": ["South Eastern Sea V", "South Eastern Sea III"]},
   {"region": "Land of Water", "row":  14, "col": 8, "status": 3, "corner": 5, "name": "South Eastern Sea V", "adjacent": ["LoW Port", "South Eastern Sea IV"]},
 
