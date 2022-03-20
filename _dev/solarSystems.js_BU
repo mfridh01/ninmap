@@ -1,0 +1,13 @@
+var solarSystems = [
+  {"region": "The Citadel", "row":  0, "col":  0, "status": 0, "corner": 1, "name": "0, 0", "adjacent": []},
+  {"region": "The Citadel", "row":  0, "col":  1, "status": 0, "corner": 0, "name": "0, 1", "adjacent": ["1, 0", "1, 2", "2, 1"]},
+  {"region": "The Citadel", "row":  0, "col":  2, "status": 0, "corner": 1, "name": "0, 2", "adjacent": []},
+
+  {"region": "The Citadel", "row":  1, "col":  0, "status": 0, "corner": 0, "name": "1, 0", "adjacent": ["0, 1", "1, 2", "2, 1"]},
+  {"region": "The Citadel", "row":  1, "col":  1, "status": 0, "corner": 1, "name": "1, 1", "adjacent": []},
+  {"region": "The Citadel", "row":  1, "col":  2, "status": 0, "corner": 0, "name": "1, 2", "adjacent": ["0, 1", "1, 0", "2, 1"]},
+
+  {"region": "The Citadel", "row":  2, "col":  0, "status": 0, "corner": 1, "name": "2, 0", "adjacent": []},
+  {"region": "The Citadel", "row":  2, "col":  1, "status": 0, "corner": 0, "name": "2, 1", "adjacent": ["0, 1", "1, 0", "1, 2"]},
+  {"region": "The Citadel", "row":  2, "col":  2, "status": 0, "corner": 1, "name": "2, 2", "adjacent": []},
+];

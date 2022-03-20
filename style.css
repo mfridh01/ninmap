@@ -1,0 +1,111 @@
+    body {
+      background-color: white;
+      padding: 5px;
+      font-family: verdana;
+      font-size: 10pt;
+    }
+
+    .wrapper {
+      display: grid;
+      background-color: rgb(230, 200, 150);
+      grid-template-columns: auto;
+      grid-template-rows: 38px auto;
+
+      width: 966px;
+      border: 1px solid rgb(67, 74, 82);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .top-nav {
+      grid-column: 1;
+      grid-row: 1;
+      color: black;
+      padding: 2px;
+      border-bottom: 1px solid rgb(67, 74, 82);
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .top-nav div {
+      position: absolute;
+      right: 8px;
+      bottom: 8px;
+      padding-top: 10px;
+    }
+
+    .top-nav input {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .top-nav-portrait {
+      margin-right: 10px;
+    }
+
+    .content-nav {
+      grid-column: 1;
+      grid-row: 2;
+      color: black;
+      padding: 2px;
+      padding-left: 10px;
+      border-bottom: 1px solid rgb(67, 74, 82);
+    }
+
+    .content {
+      position: relative;
+      grid-column: 1;
+      grid-row: 3;
+      padding: 2px;
+      padding-bottom: 4px;
+      background-color: rgb(240, 240, 240);
+    }
+
+    .content-nav-search {
+      background-color: rgb(230, 200, 150);
+      visibility: hidden;
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      padding: 2px;
+      border: 1px solid black;
+    }
+
+    .content-nav-search a {
+      position: absolute;
+      right: 1px;
+      top: 1px;
+      padding: 1px;
+      font-size: 10px;
+      text-decoration: none;
+    }
+
+    .nin-time {
+      grid-column: 1;
+      grid-row: 4;
+      text-align: left;
+      vertical-align: middle;
+      font-size: 10px;
+      padding-top: 4px;
+      padding-left: 0px;
+      color: black;
+      border-top:  1px solid rgb(67, 74, 82);
+    }
+
+    .footer {
+      grid-column: 1;
+      grid-row: 4;
+      color: black;
+      padding: 2px;
+      border-top: 1px solid rgb(67, 74, 82);
+      text-align: center;
+    }
+
+    g {
+      cursor: pointer;
+    }
+
+    svg:hover {
+      filter: brightness(500%)
+    }

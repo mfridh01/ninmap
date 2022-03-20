@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg" width="962" height="704" class="map">
+     <image href="../images/world_map.png" width="962" height="704" />
+
+     <defs>
+          <style type="text/css"><![CDATA[
+
+        #hover-me:hover {
+            filter: brightness(115%);
+        }
+    ]]></style>
+    </defs>
+
+     <g id="hover-me">
+          <a href="../land_of_water.html" target="_top">
+               <polygon id="hover-me" style="stroke: rgb(90, 70, 50); fill: rgb(130, 150, 150)" stroke-width="5"
+                    points="613 703 617 681 635 657 662 631 670 631 686 611 711 609 735 601 745 589 745 565 719 555 672 572 634 588 628 592 616 594 611 594 597 576 601 563 601 547 607 536 609 519 618 504 621 489 621 471 638 457 655 432 656 416 662 408 662 393 636 378 620 386 578 347 568 312 582 292 601 301 610 295 620 292 629 287 643 287 655 292 667 292 680 285 693 301 709 301 716 294 733 290 755 265 805 260 820 242 829 263 865 252 878 224 880 201 895 180 895 131 878 92 880 67 916 0 961 0 961 703" />
+               <text x="840" y="480" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Land of</text>
+               <text x="840" y="500" font-family="calibri" font-size="30" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Water</text>
+          </a>
+     </g>
+
+     <g id="hover-me">
+          <polygon style="stroke: rgb(90, 70, 50); fill: rgb(200, 120, 100)" stroke-width="5"
+               points="613 703 617 681 630 661 630 629 622 616 628 598 628 592 616 594 611 594 597 576 601 563 601 547 607 536 609 519 618 504 621 489 621 471 613 463 601 448 601 424 566 376 536 375 527 362 527 347 521 340 486 340 469 331 444 336 419 324 404 323 355 338 335 333 325 323 306 328 285 357 290 402 302 426 295 458 305 491 319 496 330 508 339 511 386 584 386 594 381 620 383 639 376 657 384 669 394 668 428 623 438 606 461 611 475 608 499 618 554 602 571 619 586 630 580 650 542 669 534 689 526 703" />
+          <text x="450" y="470" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Land of</text>
+          <text x="450" y="490" font-family="calibri" font-size="30" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Fire</text>
+     </g>
+
+     <g id="hover-me">                                                                                                                               628 592 616 594 611 594 597 576 601 563 601 547 607 536 609 519 618 504 621 489 621 471
+          <polygon style="stroke: rgb(90, 70, 50); fill: rgb(140, 130, 120)" stroke-width="5"
+               points="319 703 342 672 351 676 363 676 384 669 376 657 383 649 381 620 386 594 386 584 339 511 330 508 319 496 305 491 295 458 302 426 290 402 255 475 270 530 286 559 287 594 289 605 284 619 282 631 277 643 284 656 294 663 298 678 296 687 296 703" />
+          <text x="330" y="600" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Land of</text>
+          <text x="330" y="620" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Rivers</text>
+     </g>
+
+     <g id="hover-me">
+          <polygon style="stroke: rgb(90, 70, 50); fill: rgb(150, 150, 110)" stroke-width="5"
+               points="0 382 11 382 35 375 48 363 59 363 74 371 82 382 85 392 113 415 125 416 135 426 159 437 178 437  255 475 270 530 286 559 287 594 289 605 284 619 282 631 277 643 284 656 294 663 298 678 296 687 296 703 0 703" />
+          <text x="120" y="560" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Land of</text>
+          <text x="120" y="580" font-family="calibri" font-size="30" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Wind</text>
+     </g>
+</svg>

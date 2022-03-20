@@ -1,0 +1,68 @@
+var mobs = [
+  {
+   "name": "Larva",
+   "level": "1",
+   "xp": "1",
+   "locations": ["Silky Crater", "Slight Slope", "3 Way Road Split"],
+  },
+  {
+   "name": "Spiderling",
+   "level": 3,
+   "xp": 3,
+   "locations": ["Silky Crater"],
+  },
+  {
+   "name": "Ant",
+   "level": 3,
+   "xp": 3,
+   "locations": ["3 Way Road Split", "Bloody Pond", "Ant Tunnel"],
+  },
+  {
+   "name": "Dragonfly",
+   "level": 5,
+   "xp": 5,
+   "locations": ["Windy Pond", "Big Slope", "By The River", "LoW Bounty Station"],
+  },
+  {
+   "name": "Fire Ant",
+   "level": 7,
+   "xp": 7,
+   "locations": ["3 Way Road Split", "Big Slope","Bloody Pond", "Ant Tunnel"],
+  },
+  {
+   "name": "Fox",
+   "level": 9,
+   "xp": 9,
+   "locations": ["Windy Pond", "By The River"],
+  },
+  {
+   "name": "Boar",
+   "level": 13,
+   "xp": 13,
+   "locations": ["LoW Port", "Misty Hides"],
+  },
+  {
+   "name": "Black Boar",
+   "level": 17,
+   "xp": 17,
+   "locations": ["LoW Port", "Misty Hides"],
+  },
+  {
+   "name": "Evil Spirit",
+   "level": 23,
+   "xp": 23,
+   "locations": ["Sealed Temple"],
+  },
+  {
+   "name": "Giant Ant",
+   "level": 26,
+   "xp": 26,
+   "locations": ["Bloody Pond", "Ant Tunnel"],
+  },
+  {
+   "name": "Giant Fire Ant",
+   "level": 27,
+   "xp": 27,
+   "locations": ["Bloody Pond", "Ant Tunnel"],
+  }
+];

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg" width="962" height="704">
+<line x1="180" y1="12.5" x2="405" y2="12.5" stroke="grey" stroke-width="2"></line>
+<g>
+<rect id="rect-Kaimon" x="150" y="0" rx="12.5" ry="12.5" width="60" height="25" stroke="black" stroke-width="2" fill="rgb(95, 130, 95)"></rect>
+<text x="180" y="12.5" font-family="calibri" font-size="10" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Kaimon</text>
+</g>
+<g>
+<rect id="rect-Kausaaja" x="375" y="0" rx="12.5" ry="12.5" width="60" height="25" stroke="black" stroke-width="2" fill="rgb(95, 130, 95)"></rect>
+<text x="405" y="12.5" font-family="calibri" font-size="10" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Kausaaja</text>
+</g>
+<g>
+<rect id="rect-Uhvosa" x="525" y="0" rx="12.5" ry="12.5" width="60" height="25" stroke="black" stroke-width="2" fill="rgb(95, 130, 95)"></rect>
+<text x="555" y="12.5" font-family="calibri" font-size="10" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Uhvosa</text>
+</g>
+<g>
+<rect id="rect-Mara" x="900" y="0" rx="0" ry="0" width="60" height="25" stroke="black" stroke-width="2" fill="rgb(95, 130, 95)"></rect>
+<text x="930" y="12.5" font-family="calibri" font-size="10" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Mara</text>
+</g>
+</svg>
