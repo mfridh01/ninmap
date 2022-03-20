@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg" width="962" height="704">
 <image href="../images/world_map.png" width="962" height="704" style="filter: brightness(120%);"/>
-<line x1="150" y1="132.5" x2="255" y2="212.5" stroke="black" stroke-width="2"></line>
-<line x1="465" y1="132.5" x2="360" y2="212.5" stroke="black" stroke-width="2"></line>
+<line x1="360" y1="172.5" x2="360" y2="212.5" stroke="black" stroke-width="2"></line>
 <line x1="255" y1="212.5" x2="360" y2="212.5" stroke="black" stroke-width="2"></line>
+<line x1="255" y1="212.5" x2="255" y2="252.5" stroke="black" stroke-width="2"></line>
 <line x1="360" y1="212.5" x2="360" y2="292.5" stroke="black" stroke-width="2"></line>
 <line x1="360" y1="292.5" x2="360" y2="372.5" stroke="black" stroke-width="2"></line>
 <line x1="675" y1="332.5" x2="675" y2="372.5" stroke="black" stroke-width="2"></line>
@@ -23,12 +23,8 @@
 <line x1="465" y1="572.5" x2="675" y2="572.5" stroke="black" stroke-width="2"></line>
 <line x1="675" y1="572.5" x2="885" y2="572.5" stroke="black" stroke-width="2"></line>
 <g>
-<rect id="rect-AntTunnel" x="105" y="120" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(210, 210, 210)"></rect>
-<text x="150" y="132.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Ant Tunnel</text>
-</g>
-<g>
-<rect id="rect-SealedTemple" x="420" y="120" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(210, 210, 210)"></rect>
-<text x="465" y="132.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Sealed Temple</text>
+<rect id="rect-SealedTemple" x="315" y="160" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(210, 210, 210)"></rect>
+<text x="360" y="172.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Sealed Temple</text>
 </g>
 <g>
 <rect id="rect-BloodyPond" x="210" y="200" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(255, 255, 255)"></rect>
@@ -37,6 +33,10 @@
 <g>
 <rect id="rect-BambooForest" x="315" y="200" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(255, 255, 255)"></rect>
 <text x="360" y="212.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Bamboo Forest</text>
+</g>
+<g>
+<rect id="rect-AntTunnel" x="210" y="240" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(210, 210, 210)"></rect>
+<text x="255" y="252.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Ant Tunnel</text>
 </g>
 <g>
 <rect id="rect-MistyHides" x="315" y="280" rx="12.5" ry="12.5" width="90" height="25" stroke="green" stroke-width="2" fill="rgb(255, 255, 255)"></rect>
@@ -95,23 +95,23 @@
 <text x="360" y="412.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Big Slope</text>
 </g>
 <g>
-<rect id="rect-SouthEasternSea" x="0" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
-<text x="45" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">South Eastern Sea</text>
+<rect id="rect-SESea" x="0" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
+<text x="45" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">SE Sea</text>
 </g>
 <g>
-<rect id="rect-SouthEasternSeaII" x="210" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
-<text x="255" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">South Eastern Sea II</text>
+<rect id="rect-SESeaII" x="210" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
+<text x="255" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">SE Sea II</text>
 </g>
 <g>
-<rect id="rect-SouthEasternSeaIII" x="420" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
-<text x="465" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">South Eastern Sea III</text>
+<rect id="rect-SESeaIII" x="420" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
+<text x="465" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">SE Sea III</text>
 </g>
 <g>
-<rect id="rect-SouthEasternSeaIV" x="630" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="red" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
-<text x="675" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">South Eastern Sea IV</text>
+<rect id="rect-SESeaIV" x="630" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="red" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
+<text x="675" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">SE Sea IV</text>
 </g>
 <g>
-<rect id="rect-SouthEasternSeaV" x="840" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
-<text x="885" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">South Eastern Sea V</text>
+<rect id="rect-SESeaV" x="840" y="560" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(160, 200, 250)"></rect>
+<text x="885" y="572.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">SE Sea V</text>
 </g>
 </svg>

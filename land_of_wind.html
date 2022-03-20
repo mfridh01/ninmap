@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="wrapper">
@@ -10,7 +10,9 @@
     <div class="top-nav">
       <img class="top-nav-portrait" src="images/portrait.png">
 
-      Nin Online, interactive MAP.
+      Search for: <input type="text" name="searchBar" id="searchBar" placeholder="monster">
+      <button name="searchButton" id="searchButton">Search</button>
+      &nbsp;&nbsp; <span id="searchResult"></span>
 
       <div class="system-logo">
         <img src="images/hosts-ok.png">
@@ -23,7 +25,12 @@
     </div>
 
     <div class="content">
-      <object id="map" data="svg/world_map.svg" type="image/svg+xml" width="962" height="706"></object>
+            <div id="searchBox" class="content-nav-search">
+                 Locations: 0<br/>
+                 Mobs: 0<br/>
+                 <a href="">Close</a>
+            </div>
+      <object id="map" data="svg/land_of_wind.svg" type="image/svg+xml" width="962" height="706"></object>
     </div>
     <div class="footer">Nin Online, Map by: Snits</div>
   </div>

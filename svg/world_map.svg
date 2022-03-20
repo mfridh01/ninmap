@@ -36,9 +36,11 @@
      </g>
 
      <g id="hover-me">
-          <polygon style="stroke: rgb(90, 70, 50); fill: rgb(150, 150, 110)" stroke-width="5"
-               points="0 382 11 382 35 375 48 363 59 363 74 371 82 382 85 392 113 415 125 416 135 426 159 437 178 437  255 475 270 530 286 559 287 594 289 605 284 619 282 631 277 643 284 656 294 663 298 678 296 687 296 703 0 703" />
-          <text x="120" y="560" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Land of</text>
-          <text x="120" y="580" font-family="calibri" font-size="30" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Wind</text>
+          <a href="../land_of_wind.html" target="_top">
+               <polygon style="stroke: rgb(90, 70, 50); fill: rgb(150, 150, 110)" stroke-width="5"
+                    points="0 382 11 382 35 375 48 363 59 363 74 371 82 382 85 392 113 415 125 416 135 426 159 437 178 437  255 475 270 530 286 559 287 594 289 605 284 619 282 631 277 643 284 656 294 663 298 678 296 687 296 703 0 703" />
+               <text x="120" y="560" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Land of</text>
+               <text x="120" y="580" font-family="calibri" font-size="30" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Wind</text>
+          </a>
      </g>
 </svg>

@@ -3,13 +3,7 @@ var mobs = [
    "name": "Larva",
    "level": "1",
    "xp": "1",
-   "locations": ["Silky Crater", "Slight Slope", "3 Way Road Split"],
-  },
-  {
-   "name": "Spiderling",
-   "level": 3,
-   "xp": 3,
-   "locations": ["Silky Crater"],
+   "locations": ["Silky Crater", "Slight Slope", "3 Way Road Split", "Mountain Side", "LV S. Outskirts", "Larva Road", "Water Crossing", "Crestfallen Tree", "Sand Nesting Grnd"],
   },
   {
    "name": "Ant",
@@ -24,10 +18,28 @@ var mobs = [
    "locations": ["Windy Pond", "Big Slope", "By The River", "LoW Bounty Station"],
   },
   {
+   "name": "Spiderling",
+   "level": 5,
+   "xp": 5,
+   "locations": ["Silky Crater", "Mountain Peak", "Mountain Side", "Moist Plains", "Water Crossing", "Near the Valley"],
+  },
+  {
+   "name": "Scorpion",
+   "level": 5,
+   "xp": 5,
+   "locations": ["Crestfallen Tree", "Howling Canyon", "Desert Palms"],
+  },
+  {
    "name": "Fire Ant",
    "level": 7,
    "xp": 7,
    "locations": ["3 Way Road Split", "Big Slope","Bloody Pond", "Ant Tunnel"],
+  },
+  {
+   "name": "Stinger",
+   "level": 7,
+   "xp": 7,
+   "locations": ["Sand Hive Grnd"],
   },
   {
    "name": "Fox",
@@ -36,10 +48,16 @@ var mobs = [
    "locations": ["Windy Pond", "By The River"],
   },
   {
+   "name": "Desert Coyote",
+   "level": 9,
+   "xp": 9,
+   "locations": ["Howling Canyon", "W Desert Valley", "E Desert Valley", "Desert Road"],
+  },
+  {
    "name": "Wolf",
    "level": 9,
    "xp": 9,
-   "locations": ["Mountain Peak"],
+   "locations": ["Mountain Peak", "Outskrits Dead End"],
   },
   {
    "name": "Boar",
@@ -48,10 +66,46 @@ var mobs = [
    "locations": ["LoW Port", "Misty Hides"],
   },
   {
+   "name": "Scarab",
+   "level": 13,
+   "xp": 13,
+   "locations": ["Desert Cave Ent"],
+  },
+  {
+   "name": "Tiger",
+   "level": 13,
+   "xp": 13,
+   "locations": ["Striped Lake"],
+  },
+  {
+   "name": "Tunneler",
+   "level": 17,
+   "xp": 17,
+   "locations": ["Desert Oasis", "Infested Desert Road"],
+  },
+  {
+   "name": "White Tiger",
+   "level": 17,
+   "xp": 17,
+   "locations": ["Striped Lake"],
+  },
+  {
    "name": "Black Boar",
    "level": 17,
    "xp": 17,
    "locations": ["LoW Port", "Misty Hides"],
+  },
+  {
+   "name": "Rabid Wolf",
+   "level": 18,
+   "xp": 18,
+   "locations": ["Mountain Peak"],
+  },
+  {
+   "name": "Big Scarab",
+   "level": 23,
+   "xp": 23,
+   "locations": ["Secret Desert Cavern", "Deeper Desert Cavern"],
   },
   {
    "name": "Evil Spirit",
@@ -70,5 +124,23 @@ var mobs = [
    "level": 27,
    "xp": 27,
    "locations": ["Bloody Pond", "Ant Tunnel"],
+  },
+  {
+   "name": "Bee",
+   "level": 28,
+   "xp": 28,
+   "locations": ["End of the Valley"],
+  },
+  {
+   "name": "Hornet",
+   "level": 28,
+   "xp": 28,
+   "locations": ["End of the Valley"],
+  },
+  {
+   "name": "Bear",
+   "level": 36,
+   "xp": 36,
+   "locations": ["Forest n t Ledge", "Mountain Sea Path"],
   }
 ];

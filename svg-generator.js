@@ -2,6 +2,7 @@
 //var svg = document.getElementById('svg');
 var landOfWater = require('./continents/land_of_water');
 var landOfFire = require('./continents/land_of_fire');
+var landOfWind = require('./continents/land_of_wind');
 var continents;
 
 // Containers - elements.
@@ -258,6 +259,8 @@ function getRegion(region) {
       return landOfWater;
     case "land_of_fire.js":
       return landOfFire;
+    case "land_of_wind.js":
+      return landOfWind;
     default: null;
   }
 }
