@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg" width="962" height="704">
+<image href="../images/world_map.png" width="962" height="704" style="filter: brightness(120%);"/>
+<line x1="675" y1="92.5" x2="675" y2="132.5" stroke="black" stroke-width="2"></line>
+<line x1="675" y1="92.5" x2="780" y2="92.5" stroke="black" stroke-width="2"></line>
+<line x1="780" y1="92.5" x2="885" y2="92.5" stroke="black" stroke-width="2"></line>
+<g>
+<rect id="rect-LeafVillageSummit" x="630" y="80" rx="12.5" ry="12.5" width="90" height="25" stroke="green" stroke-width="2" fill="rgb(255, 255, 255)"></rect>
+<text x="675" y="92.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Leaf Village Summit</text>
+</g>
+<g>
+<rect id="rect-MountainSide" x="735" y="80" rx="12.5" ry="12.5" width="90" height="25" stroke="green" stroke-width="2" fill="rgb(255, 255, 255)"></rect>
+<text x="780" y="92.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Mountain Side</text>
+</g>
+<g>
+<rect id="rect-MountainPeak" x="840" y="80" rx="12.5" ry="12.5" width="90" height="25" stroke="green" stroke-width="2" fill="rgb(255, 255, 255)"></rect>
+<text x="885" y="92.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Mountain Peak</text>
+</g>
+<g>
+<rect id="rect-LeafVillage" x="630" y="120" rx="0" ry="0" width="90" height="25" stroke="black" stroke-width="2" fill="orange"></rect>
+<text x="675" y="132.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Leaf Village</text>
+</g>
+</svg>

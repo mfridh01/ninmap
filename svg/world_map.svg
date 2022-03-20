@@ -20,10 +20,12 @@
      </g>
 
      <g id="hover-me">
-          <polygon style="stroke: rgb(90, 70, 50); fill: rgb(200, 120, 100)" stroke-width="5"
-               points="613 703 617 681 630 661 630 629 622 616 628 598 628 592 616 594 611 594 597 576 601 563 601 547 607 536 609 519 618 504 621 489 621 471 613 463 601 448 601 424 566 376 536 375 527 362 527 347 521 340 486 340 469 331 444 336 419 324 404 323 355 338 335 333 325 323 306 328 285 357 290 402 302 426 295 458 305 491 319 496 330 508 339 511 386 584 386 594 381 620 383 639 376 657 384 669 394 668 428 623 438 606 461 611 475 608 499 618 554 602 571 619 586 630 580 650 542 669 534 689 526 703" />
-          <text x="450" y="470" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Land of</text>
-          <text x="450" y="490" font-family="calibri" font-size="30" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Fire</text>
+          <a href="../land_of_fire.html" target="_top">
+               <polygon style="stroke: rgb(90, 70, 50); fill: rgb(200, 120, 100)" stroke-width="5"
+                    points="613 703 617 681 630 661 630 629 622 616 628 598 628 592 616 594 611 594 597 576 601 563 601 547 607 536 609 519 618 504 621 489 621 471 613 463 601 448 601 424 566 376 536 375 527 362 527 347 521 340 486 340 469 331 444 336 419 324 404 323 355 338 335 333 325 323 306 328 285 357 290 402 302 426 295 458 305 491 319 496 330 508 339 511 386 584 386 594 381 620 383 639 376 657 384 669 394 668 428 623 438 606 461 611 475 608 499 618 554 602 571 619 586 630 580 650 542 669 534 689 526 703" />
+               <text x="450" y="470" font-family="calibri" font-size="24" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Land of</text>
+               <text x="450" y="490" font-family="calibri" font-size="30" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Fire</text>
+          </a>
      </g>
 
      <g id="hover-me">                                                                                                                               628 592 616 594 611 594 597 576 601 563 601 547 607 536 609 519 618 504 621 489 621 471

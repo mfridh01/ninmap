@@ -36,6 +36,12 @@ var mobs = [
    "locations": ["Windy Pond", "By The River"],
   },
   {
+   "name": "Wolf",
+   "level": 9,
+   "xp": 9,
+   "locations": ["Mountain Peak"],
+  },
+  {
    "name": "Boar",
    "level": 13,
    "xp": 13,
