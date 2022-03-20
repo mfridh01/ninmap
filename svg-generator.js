@@ -22,6 +22,7 @@ module.exports = function svgGen(region) {
   fillRelationsTable();
   var fullSVG = "";
   fullSVG = fullSVG + '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg" width="962" height="704">\n';
+  fullSVG = fullSVG + '<image href="../images/world_map.png" width="962" height="704" style="filter: brightness(120%);"/>\n';
   fullSVG = fullSVG + drawLines();
   fullSVG = fullSVG + drawGrids();
   fullSVG = fullSVG + '</svg>';
@@ -167,7 +168,7 @@ function svgRect(grid) {
   if (grid.corner == 4) {TEST_color = "yellow";}
   if (grid.corner == 5) {TEST_color = "orange";}
   if (grid.corner == 6) {TEST_color = "gray";}
-  grid.corner = 1
+  if (grid.corner != 0) { grid.corner = 1; }
   // -----------------------------------------
 
   var rectX = grid.col * (rectSizeX + gridSpaceX);
@@ -237,6 +238,8 @@ function getColor(status, cornerRad) {
       return "rgb(160, 200, 250)";
     case 4: //Gray
       return "rgb(210, 210, 210)";
+    case 5: // orange
+      return "orange";
     default:
       return "rgb(255, 255, 255)";
   }

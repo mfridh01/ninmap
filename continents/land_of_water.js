@@ -15,7 +15,7 @@ var grids = [
   {"region": "Land of Water", "row":  9, "col": 3, "status": 0, "corner": 1, "name": "3 Way Road Split", "adjacent": ["Slight Slope", "LoW Bounty Station", "Big Slope"]},
   {"region": "Land of Water", "row":  9, "col": 4, "status": 0, "corner": 1, "name": "Slight Slope", "adjacent": ["Mist Village WE", "3 Way Road Split"]},
   {"region": "Land of Water", "row":  9, "col": 5, "status": 0, "corner": 1, "name": "Mist Village WE", "adjacent": ["Mist Village", "Slight Slope"]},
-  {"region": "Land of Water", "row":  9, "col": 6, "status": 0, "corner": 5, "name": "Mist Village", "adjacent": ["Mist Village WE", "Mist Housing", "Mist Village EE"]},
+  {"region": "Land of Water", "row":  9, "col": 6, "status": 5, "corner": 0, "name": "Mist Village", "adjacent": ["Mist Village WE", "Mist Housing", "Mist Village EE"]},
   {"region": "Land of Water", "row":  9, "col": 7, "status": 0, "corner": 1, "name": "Mist Village EE", "adjacent": ["Mist Village", "Silky Crater"]},
   {"region": "Land of Water", "row":  9, "col": 8, "status": 0, "corner": 1, "name": "Windy Pond", "adjacent": ["Mist Village EE"]},
 

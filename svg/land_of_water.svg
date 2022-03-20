@@ -65,7 +65,7 @@
 <text x="570" y="372.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Mist Village WE</text>
 </g>
 <g>
-<rect id="rect-MistVillage" x="630" y="360" rx="12.5" ry="12.5" width="90" height="25" stroke="orange" stroke-width="2" fill="rgb(255, 255, 255)"></rect>
+<rect id="rect-MistVillage" x="630" y="360" rx="0" ry="0" width="90" height="25" stroke="black" stroke-width="2" fill="orange"></rect>
 <text x="675" y="372.5" font-family="calibri" font-size="11" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">Mist Village</text>
 </g>
 <g>
